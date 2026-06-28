@@ -25,12 +25,11 @@ from langchain.agents.middleware import dynamic_prompt, ModelRequest
 load_dotenv(os.path.join("..", ".env"), override=True)
 os.environ["LANGSMITH_TRACING"] = "false"
 
-# Ensure API key is available before initializing models
+
 if not os.environ.get("GOOGLE_API_KEY"):
     os.environ["GOOGLE_API_KEY"] = getpass.getpass("Enter API key for Google Gemini: ")
 
-# Configuration Variables
-PDF_FILE_PATH = "C:/Users/asus/deep-agents-from-scratch/example data/C112204 - Copy.pdf" # Update this path for your repo
+PDF_FILE_PATH = "pdf dir..."
 CHROMA_PERSIST_DIR = "./chroma_langchain_db"
 COLLECTION_NAME = "example_collection"
 
