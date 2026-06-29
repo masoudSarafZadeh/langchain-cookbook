@@ -20,8 +20,8 @@ from markdownify import markdownify
 from pydantic import BaseModel, Field
 from tavily import TavilyClient
 
-from deep_agents_from_scratch.prompts import SUMMARIZE_WEB_SEARCH
-from deep_agents_from_scratch.state import DeepAgentState
+from prompts import SUMMARIZE_WEB_SEARCH
+from state import DeepAgentState
 
 # Summarization model configuration
 summarization_model = init_chat_model(model="openai:gpt-4o-mini")
