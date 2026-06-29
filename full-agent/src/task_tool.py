@@ -70,7 +70,7 @@ def _create_task_tool(tools, subagents: list[SubAgent], model, state_schema):
     other_agents_string = [
         f"- {_agent['name']}: {_agent['description']}" for _agent in subagents
     ]
-    # FIX: Join the list into a single clean string block so it formats cleanly into the prompt
+    # Join the list into a single clean string block so it formats cleanly into the prompt
     formatted_agents_list = "\n".join(other_agents_string)
 
     @tool(description=TASK_DESCRIPTION_PREFIX.format(other_agents=formatted_agents_list))
