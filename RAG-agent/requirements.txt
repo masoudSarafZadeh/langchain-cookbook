@@ -1,0 +1,14 @@
+# Core Framework
+langchain>=1.0.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# Google Gemini & Embeddings Ecosystem
+langchain-google-genai>=2.0.0
+
+# Vector Database & File Processing
+langchain-chroma>=0.1.0
+pypdf>=5.0.0
+
+# Utilities
+python-dotenv>=1.0.1
