@@ -17,7 +17,7 @@ langchain-cookbook/
 ├── SQL-agent/           # Autonomous Text-to-SQL with Self-Correction
 ├── LICENSE              # Repository open-source licensing terms
 └── README.md            # Global workspace registry (This file)
-
+```
 ##  The Recipes At A Glance
 
 ### 1. Hierarchical Deep Agent
