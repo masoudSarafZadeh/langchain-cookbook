@@ -4,7 +4,7 @@ This sub-repository provides a hands-on cookbook example demonstrating two disti
 
 The script ingests a PDF document, splits its text content into semantic chunks, stores it inside an on-disk Chroma vector database, and queries it in Persian.
 
-## 🧠 Architectures Compared
+## Architectures Compared
 
 This recipe implements and showcases two different RAG methods:
 
@@ -18,7 +18,7 @@ This recipe implements and showcases two different RAG methods:
    * Every time a user sends a message, the system automatically intercepts the query behind the scenes, runs a similarity search, and injects the raw context into the system prompt before the model even reads it.
    * **Best for:** Standard, predictable Q&A systems where lookup is required on every single turn.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 RAG-agent/
