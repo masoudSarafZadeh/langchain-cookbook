@@ -46,7 +46,7 @@ Open your new .env file and supply your key:
 GOOGLE_API_KEY=your_gemini_api_key_here
 ```
 ### 3. Add Your Document
-Create a data/ folder if it doesn't exist.
+Create a data/ folder.
 
 Drop your target PDF file inside it.
 
